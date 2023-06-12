@@ -1,0 +1,1 @@
+console.log("Basics of javascript with meta");
