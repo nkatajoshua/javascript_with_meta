@@ -26,3 +26,29 @@ var now = "Now in ";
 var three = 3;
 var d = 'D!';
 console.log(now + three.toString() + d);
+
+//conditional statments
+var age =10;
+if(age>=65){
+    console.log("You gte your income from your pension");
+} else if (age<65 && age>=18){
+    console.log("Each month you get salary");
+} else if (age <18){
+    console.log("You get an allowance");
+} else {
+    console.log("The value of the age variable is not numerical");
+}
+
+var day = "Sunday";
+
+switch(day){
+    case "Sunday" :
+      console.log("Do something on Sunday");
+      break;
+    case "Tuesday":
+       console.log('DO something on Tuesday');
+       break;
+    default:
+       console.log('Just do something');
+       break;
+}
