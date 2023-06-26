@@ -52,3 +52,28 @@ switch(day){
        console.log('Just do something');
        break;
 }
+
+//for loop and while loop
+console.log(1)
+console.log(2)
+console.log(3)
+console.log(4)
+console.log(5)
+console.log('Counting completed!')
+for (var n=1; n<=5; n++){
+    console.log(n);
+}
+console.log('Counting completed');
+
+console.log(1)
+console.log(2)
+console.log(3)
+console.log(4)
+console.log(5)
+console.log('Counting completed!')
+var m=1
+while(m<=5){
+    console.log(m);
+    m++;
+}
+console.log("Counting completed!");
